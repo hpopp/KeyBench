@@ -8,10 +8,10 @@
 
 import Foundation
 
-class KeyBench {
+public class KeyBench {
 
     private var items: [String:CFAbsoluteTime] = [:]
-    static let sharedInstance = KeyBench()
+    public static let sharedInstance = KeyBench()
 
     /**
      Starts a bench for given `id`.
@@ -20,7 +20,7 @@ class KeyBench {
      
      - Parameter id: Bench identifier.
     */
-    func start(_ id: String) {
+    public func start(_ id: String) {
         items[id] = CFAbsoluteTimeGetCurrent()
     }
 
@@ -31,7 +31,7 @@ class KeyBench {
      
      - Parameter id: Bench identifier.
      */
-    func stop(_ id: String) {
+    public func stop(_ id: String) {
         let endTime = CFAbsoluteTimeGetCurrent()
         guard let startTime = items[id] else { return }
 
