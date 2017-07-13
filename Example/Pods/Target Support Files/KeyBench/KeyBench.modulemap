@@ -1,0 +1,6 @@
+framework module KeyBench {
+  umbrella header "KeyBench-umbrella.h"
+
+  export *
+  module * { export * }
+}

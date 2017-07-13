@@ -1,0 +1,22 @@
+{
+  "name": "KeyBench",
+  "version": "0.1.0",
+  "summary": "A short description of KeyBench.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hpopp/KeyBench",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hpopp": "henry@codedge.io"
+  },
+  "source": {
+    "git": "https://github.com/hpopp/KeyBench.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KeyBench/Classes/**/*"
+}

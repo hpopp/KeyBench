@@ -1,0 +1,22 @@
+PODS:
+  - KeyBench (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - KeyBench (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  KeyBench:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeyBench: 2efb13c1dd0a00c3803c4f7112ca1a147980e008
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 5809d45c6035004c667a11a810b78714d3353595
+
+COCOAPODS: 1.2.1
