@@ -1,0 +1,7 @@
+use_frameworks!
+target 'KeyBench_Tests' do
+  pod 'KeyBench', :path => '../'
+  
+  pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+end
